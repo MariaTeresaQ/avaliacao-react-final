@@ -53,6 +53,9 @@ table {
   /*text-align: center;*/
   font-size: 62.5%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
@@ -131,10 +134,11 @@ table {
   font-size: 0.85rem;
 }
 
-.lista_item{
+p.lista_item{
   display: inline;
   font-size: 0.85rem;
   font-family: helvetica, 'sans serif';
+  margin-right: 2rem;
 }
 
 .lista_tarefas_completas{
